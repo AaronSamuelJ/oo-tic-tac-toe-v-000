@@ -64,9 +64,9 @@ class TicTacToe
     won? || draw?
   end
   def winner
-    if @board[won?[0]] == "X"
+    if won? && @board[won?[0]] == "X"
       "X"
-    elsif @board[won?[0]] == "O"
+    elsif won? && @board[won?[0]] == "O"
       "O"
     end
   end
