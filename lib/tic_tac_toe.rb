@@ -64,12 +64,11 @@ class TicTacToe
     won? || draw?
   end
   def winner
+    binding.pry
     if @board[won?[0]] == "X"
       "X"
     elsif @board[won?[0]] == "O"
       "O"
-    else
-      nil
     end
   end
 end
