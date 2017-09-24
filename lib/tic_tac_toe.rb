@@ -39,6 +39,6 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
   def turn
-
+    puts "Please make a move between(1-9):"
   end
 end
