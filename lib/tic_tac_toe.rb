@@ -41,5 +41,6 @@ class TicTacToe
   def turn
     puts "Please make a move between(1-9):"
     input = gets.strip
+    user_input = input_to_index(input)
   end
 end
