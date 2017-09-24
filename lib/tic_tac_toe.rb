@@ -55,6 +55,6 @@ class TicTacToe
     end
   end
   def full?
-    turn_count.size == 9
+    @board.all?{|token| token == "X" || token =="O"}
   end
 end
