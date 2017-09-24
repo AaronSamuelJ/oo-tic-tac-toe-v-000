@@ -39,6 +39,6 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
   def turn(input)
-    
+
   end
 end
